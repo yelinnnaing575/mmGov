@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:background="#6B7669">
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp">
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical"
+			android:padding="15dp"
+			android:textAlignment="gravity"
+			android:background="#85927C">
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="နိုင်ငံတော်သမ္မတရုံး"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k2"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="ကာကွယ်ရေးဝန်ကြီးဌာန"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k3"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="နယ်စပ်ရေးရာဝန်ကြီးဌာန"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k4"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="ပြန်ကြားရေးဝန်ကြီးဌာန"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k5"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="နိုင်ငံခြားရေးဝန်ကြီးဌာန"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k6"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="သာသနာရေးဝန်ကြီးဌာန"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k7"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="သမဝါယမဝန်ကြီးဌာန"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k8"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="လယ်ယာစိုက်ပျိုးရေး နှင့် ဆည်မြောင်းဝန်ကြီးဌာန"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k9"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="မွေးမြူရေးနှင့်ရေလုပ်ငန်းဝန်ကြီးဌာန"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k10"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="ဆက်သွယ်ရေးနှင့် သတင်းအချက်အလက် နည်းပညာဝန်ကြီးဌာန"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k11"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="ပို့ဆောင်ရေးဝန်ကြီးဌာန"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k12"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="ပတ်ဝန်းကျင်ထိန်းသိမ်းရေးနှင့်သစ်တောရေးရာဝန်ကြီးဌာန"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k13"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="လူဝင်မှုကြီးကြပ်ရေးနှင့်ပြည်သူ့အင်အားဝန်ကြီးဌာန"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k14"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="စွမ်းအင်ဝန်ကြီးဌာန"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k15"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="စက်မှုဝန်ကြီးဌာန"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k16"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="စီးပွားရေးနှင့်ကူးသန်းရောင်းဝယ်ရေးဝန်ကြီးဌာန"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k17"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="လျှပ်စစ်စွမ်းအားဝန်ကြီးဌာန"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k18"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="အားကစားဝန်ကြီးဌာန"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k19"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="ပညာရေးဝန်ကြီးဌာန"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k20"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="ကျန်းမာရေးဝန်ကြီးဌာန"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k21"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="သတ္တုတွင်းဝန်ကြီးဌာန"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k22"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="အလုပ်သမား၊အလုပ်အကိုင်နှင့်လူမှုဖူလုံရေးဝန်ကြီးဌာန"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k23"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="ရထားပို့ဆောင်ရေးဝန်ကြီးဌာန"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k24"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="လူမှုဝန်ထမ်း၊ကယ်ဆယ်ရေးနှင့်ပြန်လည်နေရာချထားရေးဝန်ကြီးဌာန"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k25"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="ဟိုတယ်နှင့်ခရီးသွားလာရေးဝန်ကြီးဌာန"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k26"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="ယဉ်ကျေးမှုဝန်ကြီးဌာန"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k27"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="ဘဏ္ဍာရေးနှင့်အခွန်ဝန်ကြီးဌာန"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k28"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="အမျိုးသားစီမံကိန်းနှင့်စီးပွားရေးဖွံ့ဖြိုးတိုးတက်မှုဝန်ကြီးဌာန"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k29"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="ဆောက်လုပ်ရေးဝန်ကြီးဌာန"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k30"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="သိပ္ပံနှင့်နည်းပညာဝန်ကြီးဌာန"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k31"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="ပြည်ထောင်စုရှေ့နေချုပ်ရုံး"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k32"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="ပြည်ထောင်စုစာရင်းစစ်ချုပ်ရုံး"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k33"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="ပြည်ထောင်စုရာထူးဝန်အဖွဲ့"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k34"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="မြန်မာနိုင်ငံရဲတပ်ဖွဲ့"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k35"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="မီးသတ်ဦးစီးဌာန"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k36"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="ဘေးအန္တရာယ်ဆိုင်ရာစီမံခန့်ခွဲမှုဦးစီးဌာန"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k37"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="မြန်မာ့နိုင်ငံခြားကုန်သွယ်ရေးဘဏ်"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k38"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="ပြည်တွင်းအခွန်များဦးစီးဌာန"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+			<TextView
+				android:padding="5dp"
+				android:textStyle="bold"
+				android:onClick="k39"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="အကောက်ခွန်ဦးစီးဌာန"
+				android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+
