@@ -15,7 +15,7 @@ extends Activity
                 wv=findViewById(R.id.v2);
                 wv.getSettings().setJavaScriptEnabled(true);
                 wv.setWebViewClient(new WebViewClient());
-                wv.loadUrl("http://www.mod.gov.mm/");
+                wv.loadUrl(getString(R.string.webSite2));
             }
 
         @Override

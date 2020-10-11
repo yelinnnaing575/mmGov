@@ -16,7 +16,7 @@ package org.smartLearner.beginnerProject;
             wv=findViewById(R.id.v1);
             wv.getSettings().setJavaScriptEnabled(true);
             wv.setWebViewClient(new WebViewClient());
-            wv.loadUrl("http://www.president-office.gov.mm");
+            wv.loadUrl(getString(R.string.webSite1));
         }
 
         @Override
