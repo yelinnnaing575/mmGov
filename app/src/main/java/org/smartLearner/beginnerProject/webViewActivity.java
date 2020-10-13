@@ -3,22 +3,28 @@ package org.smartLearner.beginnerProject;
     import android.webkit.*;
     import android.app.*;
     import android.os.*;
-    
-    public class m1 extends Activity 
+
+    public class webViewActivity extends Activity 
     {
         WebView wv;
         @Override
         protected void onCreate(Bundle savedInstanceState)
         {
             super.onCreate(savedInstanceState);
-            setContentView(R.layout.v1);
+            setContentView(R.layout.webView);
             getActionBar().hide();
+           
+            //Bundle bun= getIntent().getExtras();
+            Bundle bun=getIntent().getExtras();
+
+            String data=
+                bun.getString("webUrl");
             wv=findViewById(R.id.v1);
             wv.getSettings().setJavaScriptEnabled(true);
             wv.setWebViewClient(new WebViewClient());
-            wv.loadUrl(getString(R.string.webSite1));
+            wv.loadUrl ( data );
         }
-
+        
         @Override
         public void onBackPressed()
         {
@@ -29,4 +35,10 @@ package org.smartLearner.beginnerProject;
             }
         }
     }
-  
+  /*
+  <Spinner
+                           android:id="@+id/spinner1"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           />
+  */

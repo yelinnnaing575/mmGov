@@ -19,46 +19,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".m1"/>
-        <activity android:name=".m2"/>
-        <activity android:name=".m3"/>
-        <activity android:name=".m4"/>
-        <activity android:name=".m5"/>
-        <activity android:name=".m6"/>
-        <activity android:name=".m7"/>
-        <activity android:name=".m8"/>
-        <activity android:name=".m9"/>
-        <activity android:name=".m10"/>
-        <activity android:name=".m11"/>
-        <activity android:name=".m12"/>
-        <activity android:name=".m13"/>
-        <activity android:name=".m14"/>
-        <activity android:name=".m15"/>
-        <activity android:name=".m16"/>
-        <activity android:name=".m17"/>
-        <activity android:name=".m18"/>
-        <activity android:name=".m19"/>
-        <activity android:name=".m20"/>
-        <activity android:name=".m21"/>
-        <activity android:name=".m22"/>
-        <activity android:name=".m23"/>
-        <activity android:name=".m24"/>
-        <activity android:name=".m25"/>
-        <activity android:name=".m26"/>
-        <activity android:name=".m27"/>
-        <activity android:name=".m28"/>
-        <activity android:name=".m29"/>
-        <activity android:name=".m30"/>
-        <activity android:name=".m31"/>
-        <activity android:name=".m32"/>
-        <activity android:name=".m33"/>
-        <activity android:name=".m34"/>
-        <activity android:name=".m35"/>
-        <activity android:name=".m36"/>
-        <activity android:name=".m37"/>
-        <activity android:name=".m38"/>
-        <activity android:name=".m38"/>
-        <activity android:name=".m39"/>
+        <activity android:name=".webViewActivity"/>
         
     </application>
 

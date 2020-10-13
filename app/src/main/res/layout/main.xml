@@ -19,35 +19,39 @@
 			android:padding="15dp"
 			android:textAlignment="gravity"
 			android:background="#85927C">
-
+            
 			<TextView
+                android:onClick="k1"
+				android:id="@+id/website1"
 				android:padding="5dp"
 				android:textStyle="bold"
-				android:onClick="k1"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
-				android:text="နိုင်ငံတော်သမ္မတရုံး"
+				android:text="၁။နိုင်ငံတော်သမ္မတရုံး"
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:onClick="k2"
+				android:id="@+id/website2"
 				android:padding="5dp"
 				android:textStyle="bold"
-				android:onClick="k2"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
 				android:text="ကာကွယ်ရေးဝန်ကြီးဌာန"
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:onClick="k3"
+                android:id="@+id/website3"
 				android:padding="5dp"
 				android:textStyle="bold"
-				android:onClick="k3"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
 				android:text="နယ်စပ်ရေးရာဝန်ကြီးဌာန"
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website4"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k4"
@@ -57,6 +61,7 @@
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website5"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k5"
@@ -66,6 +71,7 @@
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website6"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k6"
@@ -75,6 +81,7 @@
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website7"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k7"
@@ -84,6 +91,7 @@
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website8"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k8"
@@ -93,6 +101,7 @@
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website9"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k9"
@@ -102,6 +111,7 @@
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website10"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k10"
@@ -111,6 +121,7 @@
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website11"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k11"
@@ -120,6 +131,7 @@
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website12"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k12"
@@ -129,6 +141,7 @@
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website13"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k13"
@@ -138,6 +151,7 @@
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website14"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k14"
@@ -147,6 +161,7 @@
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website15"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k15"
@@ -156,6 +171,7 @@
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website16"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k16"
@@ -165,6 +181,7 @@
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website17"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k17"
@@ -174,6 +191,7 @@
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website18"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k18"
@@ -183,6 +201,7 @@
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website19"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k19"
@@ -192,6 +211,7 @@
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website20"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k20"
@@ -201,6 +221,7 @@
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website21"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k21"
@@ -210,6 +231,7 @@
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website22"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k22"
@@ -219,6 +241,7 @@
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website23"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k23"
@@ -228,6 +251,7 @@
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website24"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k24"
@@ -237,6 +261,7 @@
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website25"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k25"
@@ -246,6 +271,7 @@
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website26"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k26"
@@ -255,6 +281,7 @@
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website27"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k27"
@@ -264,6 +291,7 @@
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website28"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k28"
@@ -273,6 +301,7 @@
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website29"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k29"
@@ -282,6 +311,7 @@
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website30"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k30"
@@ -291,6 +321,7 @@
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website31"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k31"
@@ -300,6 +331,7 @@
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website32"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k32"
@@ -309,6 +341,7 @@
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website33"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k33"
@@ -318,6 +351,7 @@
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website34"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k34"
@@ -327,6 +361,7 @@
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website35"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k35"
@@ -336,6 +371,7 @@
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website36"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k36"
@@ -345,6 +381,7 @@
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website37"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k37"
@@ -354,6 +391,7 @@
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website38"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k38"
@@ -363,6 +401,7 @@
 				android:textAppearance="?android:attr/textAppearanceMedium"/>
 
 			<TextView
+                android:id="@+id/website39"
 				android:padding="5dp"
 				android:textStyle="bold"
 				android:onClick="k39"
